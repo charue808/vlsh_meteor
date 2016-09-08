@@ -1,0 +1,66 @@
+<template name="landingPage">
+  <div id="headerwrap" class="container">
+    <div>
+        <h1>AREAS WE CAN HELP</h1>
+    </div>
+  </div>
+  <section id="service">
+    <div class="container">
+      <div class="row centered">
+        <div class="col-md-6 col-md-offset-3">
+
+        </div>
+      </div>
+      <div class="row centered padding-small">
+
+        <div class="col-md-4">
+          <a href="{{pathFor '/services/consumer-debt-relief'}}"><i class="fa fa-usd"></i></a>
+          <h4>Consumer Debt Relief</h4>
+          <p>Consumer Debt Collections, Chapter 7 Bankruptcy</p>
+        </div>
+        <div class="col-md-4">
+        <a href="{{pathFor '/services/district-court'}}"><i class="fa fa-university"></i></a>
+          <h4>District Court</h4>
+          <p>Landlord-Tenant, Small Claims, Contract Disputes</p>
+        </div>
+        <div class="col-md-4">
+          <a href="{{pathFor '/services/veteran-legal-assistance'}}"><i class="fa fa-flag"></i></a>
+            <h4>Veterans Assistance</h4>
+            <p>Veterans Disability Claims</p>
+        </div>
+      </div>
+      <div class="row centered padding-small">
+        <div class="col-md-2"></div>
+          <div class="col-md-4">
+            <a href="{{pathFor 'services/family-law'}}"><i class="fa fa-users"></i></a>
+              <h4>Family Law</h4>
+                <p>Divorce, Child Custody, Child Support, Guardianship, Paternity, Adoptions</p>
+          </div>
+          <div class="col-md-4">
+            <a href="{{pathFor '/services/estate-planning'}}"><i class="fa fa-home"></i></a>
+            <h4>Estate Planning</h4>
+            <p>Wills, Trusts, Powers of Attorney, Advance Healthcare Directives</p>
+          </div>
+        <div class="col-md-2"></div>
+      </div>
+      <div clas="row centered">
+      <div class="col-lg-12">
+        <div class="spacing"></div>
+        <h2 class="centered">{{title}}</h2>
+        {{{content}}}
+        <!--
+        <p>Volunteer Legal offers varying services to individuals seeking assistance with a CIVIL legal issue.  All applicants for services must call the Intake Line to complete a screening process for income/asset and legal issue eligibility.  <br><br>
+
+          <br>Oahu: 528-7046 <br>  Maui: 727-8210<br> Hawaii Island: 313-8210 <br> Kauai:  698-8210<br>
+        </p>
+
+        <p>An Intake Specialist will return your call within 42 to 72 hours to get basic information about you and your legal problem.  If Volunteer Legal is able to help, you will be scheduled for the next available legal clinic, and/or workshop.  If you do not qualify for Volunteer Legal’s services, you may be referred to another agency better suited to assist you or to the Hawaii State Bar Lawyer Referral Services at (808) 537-1868.</p>
+
+        <p> Volunteer Legal charges an administrative fee for its services to help cover program costs.  Fees are based on household income and ability to pay.  You will be informed of the applicable fee during Intake.   Please be aware that the Intake Specialist may ask you for proof of income.
+        </p>
+      -->
+      </div>
+      </div>
+    </div>
+  </section>
+</template>
