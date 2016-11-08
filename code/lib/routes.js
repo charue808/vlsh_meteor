@@ -82,9 +82,9 @@ servicesRoutes.route('/district-court', {
   }
 });
 
-servicesRoutes.route('/veteran-legal-assistance', {
+servicesRoutes.route('/veterans-legal-assistance', {
   action: function() {
-    BlazeLayout.render('mainLayout', {content: 'veteransAssist'})
+    BlazeLayout.render('mainLayout', {content: 'vaLegal'})
   }
 });
 
